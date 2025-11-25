@@ -6,22 +6,44 @@
     <title>CONTACTO</title>
 </head>
 <body>
-    <h1>CONTACTO</h1>
-    <hr>
-    <nav>
-        <ul>
-            <li><a href="index.html">TRABAJOS</a></li>
-            <li><a href="quiensoy.html">QUIÉN SOY</a></li>
-            <li><a href="contacto.html">CONTACTA CONMIGO</a></li>
-            <li><a href="formacion.html">FORMACIÓN Y EXPERIENCIA</a></li>
-        </ul>
-    </nav>
-    <hr>
+<h1>CONTACTO</h1>
+<hr>
+<nav>
+    <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="quiensoy.html">QUIÉN SOY</a></li>
+        <li><a href="contacto.html">CONTACTA CONMIGO</a></li>
+        <li><a href="formacion.html">FORMACIÓN Y EXPERIENCIA</a></li>
+    </ul>
+</nav>
+<hr>
+<br>
+<h2>Rellena el formulario</h2>
+<p></p>
+<form action="#" method="post">
+    <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+    </div>
     <br>
-
+    <div>
+        <label>Apellidos
+            <input type="text" name="apellidos" placeholder="tus apellidos">
+    </div>
+    <br>
+    <div>
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" required>
+    </div>
+    <br>
+    <div>
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+    </div>
+    <br>
+    <div class="actions">
+        <button type="submit">Enviar</button>
+    </div>
+</form>
 </body>
-<footer>
-    <br>
-    <p>© poetonkin 2025</p>
-</footer>
 </html>
