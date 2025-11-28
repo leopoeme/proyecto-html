@@ -27,28 +27,19 @@
     <h2>Rellena el formulario</h2>
     <p></p>
     <form action="#" method="post">
-        <div>
             <label for="nombre">Nombre</label>
             <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="15" size="20" required>
-        </div>
-        <br>
-        <div>
-            <label>Apellidos
-                <input type="text" name="apellidos" placeholder="tus apellidos" maxlength="25" size="30" required>
-        </div>
-        <br>
-        <div>
+        <br><br>
+        <label>Apellidos</label>
+            <input type="text" name="apellidos" placeholder="tus apellidos" maxlength="25" size="30" required>
+        <br><br>
             <label for="tel">Teléfono</label>
             <input type="tel" id="tel" name="tel" inputmode="numeric" placeholder="600 000 000" maxlength="11" size="11"
                 required>
-        </div>
-        <br>
-        <div>
+        <br><br>
             <label for="correo">Correo electrónico</label>
             <input type="email" id="correo" name="correo" size="35" required placeholder="nombre@dominio.com">
-        </div>
-        <br>
-        <div>
+        <br><br>
             <label for="disponibilidad">Tipo de trabajo</label>
             <select name="disponibilidad" id="disponibilidad" required>
                 <option value="seleccionar">Seleccionar</option>
@@ -57,19 +48,14 @@
                 <option value="poster">Póster</option>
                 <option value="ilustracion">Ilustración</option>
             </select>
-        </div>
-        <br>
-        <div>
+        <br><br>
             <label for="asunto">Asunto</label>
             <input type="text" id="asunto" name="asunto" placeholder="Motivo del mensaje" size="35" required>
-        </div>
-        <br>
-        <div>
+        <br><br>
             <label for="mensaje">Mensaje</label>
             <br>
             <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." cols="40" rows="10"
                 required></textarea>
-        </div>
         <br>
         <div class="actions">
             <button type="submit">Enviar</button>
@@ -86,4 +72,5 @@
     </address>
     <br>© poetonkin 2025 ⭑ todos los derechos reservados
 </footer>
+
 </html>
